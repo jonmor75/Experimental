@@ -1,0 +1,31 @@
+Frame 6: 262 bytes on wire (2096 bits), 262 bytes captured (2096 bits) on interface 0
+Null/Loopback
+Internet Protocol Version 6, Src: ::1, Dst: ::1
+Transmission Control Protocol, Src Port: 49644, Dst Port: 8080, Seq: 1, Ack: 1, Len: 186
+Hypertext Transfer Protocol
+    POST / HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): POST / HTTP/1.1\r\n]
+            [POST / HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: POST
+        Request URI: /
+        Request Version: HTTP/1.1
+    Host: localhost:8080\r\n
+    User-Agent: Go-http-client/1.1\r\n
+    Content-Length: 21\r\n
+    Content-Type: application/x-www-form-urlencoded\r\n
+    Accept-Encoding: gzip\r\n
+    \r\n
+    [Full request URI: http://localhost:8080/]
+    [HTTP request 1/1]
+    [Response in frame: 8]
+    File Data: 21 bytes
+HTML Form URL Encoded: application/x-www-form-urlencoded
+    Form item: "name" = "jim"
+        Key: name
+        Value: jim
+    Form item: "surname" = "beam"
+        Key: surname
+        Value: beam
+
