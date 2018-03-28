@@ -1,0 +1,1 @@
+By entering a non existing page into URL /view/non_existent_page, the page will automatically be redirected to /edit/non_existing_page. By clicking Save a new file will be created on disk and redirected to /view/non_existing_page which now exists ;)
