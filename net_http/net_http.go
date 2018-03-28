@@ -12,9 +12,9 @@ import (
 )
 
 func main() {
-	GetRequest()
+	//GetRequest()
 	//PostRequest()
-	//UrlPost()
+	UrlPost()
 }
 
 // GetRequest is used to create a HTTP Get Request
@@ -69,10 +69,12 @@ func PostRequest() {
 func UrlPost() {
 
 	formData := url.Values{
-		"name": {"jonathan"},
+		"name":    {"jim"},
+		"surname": {"beam"},
 	}
 
 	resp, err := http.PostForm("https://httpbin.org/post", formData)
+	//resp, err := http.PostForm("http://localhost:8080", formData)
 	if err != nil {
 		log.Fatalln(err)
 	}
