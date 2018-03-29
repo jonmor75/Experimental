@@ -1,4 +1,4 @@
-//http://polyglot.ninja/golang-making-http-requests/
+// http://polyglot.ninja/golang-making-http-requests/
 
 package main
 
