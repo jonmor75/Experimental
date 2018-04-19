@@ -20,5 +20,6 @@ func main() {
 		Emails: []string{"test@gmail.com", "test2@yahoo.com"},
 	}
 	json_bytes, _ := json.Marshal(jb)
+	fmt.Println(json_bytes)
 	fmt.Println(string(json_bytes))
 }
